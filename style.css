@@ -1,0 +1,189 @@
+/* måsvingar: alt gr+7 */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: url(Resort_images/Sunset_at_Pacific_Ocean.jpg)
+              no-repeat
+              fixed;
+  background-size: 100% auto; /*: bredd höjd;*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img{
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+/* Text */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+}
+
+h1{
+  border: 1px solid white;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2{
+  color: #333;
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+p,
+li{
+  text-align: justify;
+}
+
+p{
+  margin-bottom: 1.8rem;
+}
+
+.subtitle{
+  font-style: italic;
+}
+
+/* Navigation */
+nav ul{
+  background-color: lightblue;
+}
+
+nav li{
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav a{
+  color:darkslategray;
+  display: block;
+  text-decoration: underline;
+  padding: 1rem 2rem;
+}
+
+nav a:hover{
+  background-color: #0093;
+  color:white;
+}
+
+.active{
+  background-color: #0093;
+}
+
+/* Main content */
+main{
+  padding: 3rem;
+}
+
+main ul{
+  list-style-position: inside;
+  list-style-type: square;
+  margin-top: 2rem;
+}
+
+.center{
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.thin{
+  width: 60%;       /* % av föräldraelementets storlek (i detta fall bredd) */
+}
+
+.bg-white{
+  background-color: white;
+}
+
+
+/* Table */
+
+table{
+  width: 100%;
+}
+
+table, 
+th, 
+td{
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th{
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+th, td{
+  padding: 0.2rem 0.5rem;
+}
+
+tr:nth-child(even){ /*överkurs, men undersök gärna denna och nästa selektor :) */
+  background-color: lightgray;
+}
+
+th:nth-child(n+3),
+td:nth-child(n+3){
+  text-align: right;
+  max-width: 30%;
+}
+
+/* Form */
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Footer */
+footer h3,
+footer p,
+footer ul{
+  font-size: 0.9rem;
+  margin-top: 0; /* margin-top tas bort för att första kolumnen ska se ut som de andra */
+  text-align: center;
+}
+
+address{
+  background-color: lightgray;
+  columns: 3;
+  column-gap: 2rem;
+  column-width: 20%;
+  padding: 1rem;
+}
+
+address p{
+  height: 3rem; /* för att "fylla ut" sin kolumn */
+  margin-bottom: 0;
+}
+
+footer ul{
+  padding: 1rem 2rem 2rem;
+}
+
+footer li{
+  border-left: 3px solid black;
+  display: inline-block;
+  padding: 0 1rem;
+}

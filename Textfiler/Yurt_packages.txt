@@ -1,0 +1,19 @@
+Package Name
+Description
+Nights
+Cost per Person
+
+Weekend Escape
+Two breakfasts, a trail map and a picnic snack
+2
+$450
+
+Zen Retreat
+Four breakfasts, a trail map and a pass for the daily sunrise Yoga session
+4
+$600
+
+Kayak Away
+Two breakfasts, two hours of kayak rental daily and a trail map
+2
+$500
